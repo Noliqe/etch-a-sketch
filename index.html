@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" style="--bg-color:#181818;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="images/icons8-paint-32.png">
+</head>
+<body>
+<h1>Etch A Sketch</h1>
+<div class="headContainer">
+<div class="controlsContainer">
+    <h2>Controls</h2>
+<button id="toggleEraser">Toggle Eraser</button>
+<button id="toggleRainbow">Toggle Rainbow</button>
+<div class="slideContainer">
+    <button id="applyGrid">Apply</button>
+    <input type="range" min="2" max="30"  step="1" class="slider" value="8" id="myRange">
+    <p><span id='size'></span></p>
+</div>
+<button id="btn">Clear</button>
+</div>
+<div id="container">
+<div id="gridContainer">
+</div>
+</div>
+</div>
+<!--Javascript source-->
+<script src="./javascript.js" defer></script>
+</body>
+
+</html>
